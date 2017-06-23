@@ -1,7 +1,6 @@
 package com.senacor.academy.decodevin;
 
 import com.senacor.academy.decodevin.model.VehicleData;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -12,7 +11,6 @@ public class DecodeVinTest {
   private DecodeVin decodeVin = new DecodeVin();
 
   @Test
-  @Ignore
   public void decodeVin() {
     String vin = "WVWZZZ3BZWE689725";
 
@@ -25,7 +23,6 @@ public class DecodeVinTest {
   }
 
   @Test
-  @Ignore
   public void decodeVinYear() {
     String vin = "WVWZZZ3BZWE689725";
 
